@@ -22,5 +22,11 @@ class DB
         }
     }
 
+    public function query(){
+        $this->request->execute();
+    }
 
+    public function fetch($fetchType = PDO::FETCH_ASSOC){
+       return $this->request->fetch($fetchType);
+    }
 }
