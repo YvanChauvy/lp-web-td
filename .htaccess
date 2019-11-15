@@ -5,3 +5,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L]
 # interdit l'accès à un dossier même si les fichiers existent
 RewriteRule ^controllers/.* index.php [L,NC]
+RewriteRule ^models/.* index.php [L,NC]
+RewriteRule ^views/.* index.php [L,NC]
