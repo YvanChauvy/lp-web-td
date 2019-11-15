@@ -1,7 +1,7 @@
 <?php
 
 
-class MovieController
+class MovieController extends Controller
 {
 
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-class DirectorController
+class DirectorController extends Controller
 {
 
 }
